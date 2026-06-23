@@ -1,0 +1,26 @@
+name: saifi
+description: Saifi, a WiFi management and security analysis app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  wifi_scan: ^0.4.1
+  network_info_plus: ^5.0.3
+  connectivity_plus: ^6.0.5
+  permission_handler: ^11.3.1
+  geolocator: ^12.0.0
+  fl_chart: ^0.68.0
+  shared_preferences: ^2.3.2
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
